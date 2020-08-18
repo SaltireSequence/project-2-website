@@ -34,4 +34,4 @@ def get_recipes():
     return json.dumps(all_recipes, default=json_util.default)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host='0.0.0.0', port=port))
