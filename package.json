@@ -1,0 +1,19 @@
+{
+  "name": "deployed_website",
+  "version": "1.0.0",
+  "description": "Project 2 Flask App",
+  "main": "app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaltireSequence/group-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaltireSequence/group-project-2/issues"
+  },
+  "homepage": "https://github.com/SaltireSequence/group-project-2#readme"
+}
