@@ -27,6 +27,10 @@ def heesung():
 def caitlin_plots():
     return render_template("inner-page_caitlin.html")
 
+@app.route("/data")
+def data_table():
+    return render_template("inner-page-data.html")
+
 # This route returns all the recipe_collection data in JSON.
 @app.route("/recipes", methods=["GET"])
 def get_recipes():
