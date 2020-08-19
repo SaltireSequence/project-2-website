@@ -18,9 +18,9 @@ def home():
     return render_template("index.html")
 
 # This route returns heesung's plot page of the team's website
-@app.route("/heesung/")
+@app.route("/heesung")
 def heesung():
-    return redirect("https://heesung80.github.io/recipe/")
+    return render_template("inner-page_heesung.html")
 
 # This route returns caitlin's plot page of the team's website
 @app.route("/caitlin")
