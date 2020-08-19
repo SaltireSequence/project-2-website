@@ -15,7 +15,7 @@ app = Flask(__name__)
 # This route returns the team's index page
 @app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template("index.html")
 
 # This route returns heesung's plot page of the team's website
 @app.route("/heesung/")
@@ -25,7 +25,7 @@ def heesung():
 # This route returns caitlin's plot page of the team's website
 @app.route("/caitlin")
 def caitlin_plots():
-    return render_template('inner-page_caitlin.html')
+    return render_template("inner-page_caitlin.html")
 
 # This route returns all the recipe_collection data in JSON.
 @app.route("/recipes", methods=["GET"])
