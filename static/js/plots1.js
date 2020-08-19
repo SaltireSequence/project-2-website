@@ -1,5 +1,5 @@
 function makeplot() {
-  Plotly.d3.csv("final_recipe_dataset_N.csv", function(data){ processData(data) } );
+  Plotly.d3.csv("../static/js/final_recipe_dataset_N.csv", function(data){ processData(data) } );
 
 };
 
@@ -29,8 +29,8 @@ function makePlotly( cookTime, numSteps, recipeNames ){
     text: recipeNames,
     marker: { size: 12}
   }];
-  
-  
+
+
   var layout = {
     title: 'Total Cook Time by Number of Steps in a Recipe',
     xaxis: {
@@ -57,7 +57,3 @@ function makePlotly( cookTime, numSteps, recipeNames ){
   Plotly.newPlot('scatterPlot', traces, layout);
 };
   makeplot();
-
-
-
-
